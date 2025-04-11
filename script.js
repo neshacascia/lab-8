@@ -28,3 +28,6 @@ console.log(jsonString);
 
 let jsonObj = JSON.parse(jsonString);
 console.log(jsonObj);
+
+// Part 3:
+const { name, courses } = student;
