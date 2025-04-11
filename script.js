@@ -55,3 +55,7 @@ const springCourses = [
   'Front-end Programming',
 ];
 const combinedCourses = [...student.courses, ...springCourses];
+
+// Bonus:
+const averageScore =
+  scores.reduce((acc, curr) => acc + curr, 0) / scores.length;
