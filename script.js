@@ -25,3 +25,6 @@ console.log(student.displayInfo());
 // Part 2:
 let jsonString = JSON.stringify(student);
 console.log(jsonString);
+
+let jsonObj = JSON.parse(jsonString);
+console.log(jsonObj);
