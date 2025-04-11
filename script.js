@@ -20,6 +20,9 @@ const student = {
   addCourse: course => {
     student.courses.push(course);
   },
+  displayNumOfCourses: () => {
+    return student.courses.length;
+  },
 };
 
 console.log(student.name, student.age);
