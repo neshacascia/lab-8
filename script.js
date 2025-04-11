@@ -31,3 +31,7 @@ console.log(jsonObj);
 
 // Part 3:
 const { name, courses } = student;
+
+const scores = [62, 88, 94, 75, 54];
+const [firstGrade, secondGrade] = scores;
+console.log(firstGrade, secondGrade);
