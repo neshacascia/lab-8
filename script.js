@@ -35,3 +35,6 @@ const { name, courses } = student;
 const scores = [62, 88, 94, 75, 54];
 const [firstGrade, secondGrade] = scores;
 console.log(firstGrade, secondGrade);
+
+// Part 4:
+let copiedStudentObj = { ...student };
