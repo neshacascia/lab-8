@@ -17,6 +17,9 @@ const student = {
       } enrolled in school.`
     );
   },
+  addCourse: course => {
+    student.courses.push(course);
+  },
 };
 
 console.log(student.name, student.age);
