@@ -38,3 +38,6 @@ console.log(firstGrade, secondGrade);
 
 // Part 4:
 let copiedStudentObj = { ...student };
+
+copiedStudentObj.graduationYear = 2027;
+console.log(copiedStudentObj);
