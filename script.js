@@ -21,3 +21,7 @@ const student = {
 
 console.log(student.name, student.age);
 console.log(student.displayInfo());
+
+// Part 2:
+let jsonString = JSON.stringify(student);
+console.log(jsonString);
