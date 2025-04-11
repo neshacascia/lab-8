@@ -41,3 +41,11 @@ let copiedStudentObj = { ...student };
 
 copiedStudentObj.graduationYear = 2027;
 console.log(copiedStudentObj);
+
+const springCourses = [
+  'Numeric Computing',
+  'Database Programming',
+  'OOP',
+  'Front-end Programming',
+];
+const combinedCourses = [...student.courses, ...springCourses];
